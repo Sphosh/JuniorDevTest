@@ -1,0 +1,36 @@
+<!--<div class="col-md-6 mx-auto d-flex justify-content-center">-->
+
+ <div class="container" style="margin-top:5%">
+    <form class="text-center border border-light p-5" style="background-color:lightblue">
+        
+        <div class="col-md-6 mx-auto d-flex justify-content-center">
+        <mdb-icon fas icon="user-circle" size="5x" style="color:white; margin-top:-2%"></mdb-icon>
+        </div>
+        <p class="h4 mb-4">Please enter your full name and password</p>
+    
+        <div class="form-row mb-4">
+          <div class="col">
+            <!-- Full name -->
+            <input type="text" id="defaultRegisterFormFullName" class="form-control" placeholder="Full name">
+          </div>
+        </div>
+        <!-- Password -->
+        <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+    
+        <!-- Check box -->
+        <div class="row">
+            <mdb-checkbox [default]="true"> Check this box to agree to terms and conditions</mdb-checkbox>
+        </div>
+        <!-- Sign up button -->
+        <div class="signup">
+        <button mdbBtn type="button" color="blue-grey" mdbWavesEffect>SIGN UP</button>
+        </div>
+       <!-- cancel button -->
+       <div class ="cancel">
+        <button mdbBtn type="button" color="blue-grey" mdbWavesEffect>CANCEL</button>
+       </div>
+       </form>
+    
+ </div>
+
+   
